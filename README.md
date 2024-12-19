@@ -1,5 +1,5 @@
 # Real-Time-Geolocation-API
-A backend system for tracking and managing location data in real time. It supports live updates for deliveries or users, integrates with tools like Google Maps API, and optimizes geospatial queries using PostGIS. With caching via Redis and a scalable architecture, it ensures low-latency performance for location-based services.
+A backend system for tracking and managing location data in real time. It supports live updates for deliveries or users, integrates with Google Maps API, and optimizes geospatial queries using Oracle Spatial and Graph. With caching via Redis and a scalable architecture, it ensures low-latency performance for location-based services.
 
 # Features  
 - Real-Time Updates: Track users or assets with low latency.  
@@ -9,10 +9,10 @@ A backend system for tracking and managing location data in real time. It suppor
 - Scalability: Handle high traffic with a resilient architecture.  
 
 # Technologies Used  
-- Backend Framework: FastAPI (Python) or similar frameworks like Node.js or Spring Boot.  
-- Database: PostgreSQL with PostGIS for geospatial data.  
+- Backend Framework: Node.js and Spring Boot.  
+- Database: OracleDB for geospatial data.  
 - Caching: Redis for optimized query performance.  
-- Geolocation API: Google Maps API or OpenStreetMap integration.  
+- Geolocation API: Google Maps API.  
 - Containerization: Docker for easy deployment and scaling.  
 
 # Installation  
